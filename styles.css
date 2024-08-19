@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color:green;
+}
+h3{
+    text-align: center;
+    color: darkgreen;
+}
+header:hover .hover-text {
+    opacity: 1;
+}
+
+/* Profile Section */
+.profile-photo {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(0, 220, 223);
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.project {
+    width: 45%;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    margin: 5px;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
